@@ -101,7 +101,7 @@
     "unlockTag":"fleetVeh",
     "filterName":"New Car",
     "baseReward":375,
-    "rewardPerKm":275,
+    "rewardPerKm":375,
     "filter": {
       "whiteList":{"Years": {"min":2000, "max":2025}, "Mileage":{"min":5000, "max":80000}, "Value":{"min":10000, "max":100000},"Type":["Car"], "Config Type":["Factory"], "Population":{"min":300}},
       "blackList":{"Type":["Trailer"]}
@@ -129,7 +129,7 @@
     "unlockTag":"exoticVeh",
     "filterName":"Customized Car",
     "baseReward":800,
-    "rewardPerKm":450,
+    "rewardPerKm":750,
     "filter": {
       "whiteList":{"Years": {"min":1950}, "Mileage":{"min":2000000, "max":200000000}, "Value":{"min":30000},"Type":["Car"], "Config Type":["Custom"]},
       "blackList":{"Type":["Trailer"]}
@@ -143,8 +143,8 @@
     "type":"vehicle",
     "unlockTag":"exoticVeh",
     "filterName":"Expensive Car",
-    "baseReward":500,
-    "rewardPerKm":450,
+    "baseReward":1200, //edited 500
+    "rewardPerKm":950, 
     "filter": {
       "whiteList":{"Years": {"min":1900}, "Mileage":{"min":1000000, "max":50000000}, "Value":{"min":110000},"Type":["Car"], "Config Type":["Factory"],"Population":{"min":3}},
       "blackList":{"Type":["Trailer"]}
@@ -159,8 +159,8 @@
     "type":"vehicle",
     "unlockTag":"exoticVeh",
     "filterName":"Oldtimer",
-    "baseReward":400,
-    "rewardPerKm":275,
+    "baseReward":900, //edited 400
+    "rewardPerKm":675, //edited 275
     "filter": {
       "whiteList":{"Years": {"min":1900, "max":1980}, "Value":{"min":110000},"Type":["Car"], "Config Type":["Factory"],"Population":{"min":2}},
       "blackList":{"Type":["Trailer"]}
@@ -183,8 +183,8 @@
     "unlockTag":"emptySmallTrailers",
     "filterName":"Small Trailer",
     "connector":"towhitch",
-    "baseReward":100,
-    "rewardPerKm":125,
+    "baseReward":300,
+    "rewardPerKm":225,
     "filter" : {
       "whiteList" : {"model_key" : ["boxutility","tsfb","boxutility_large"] },
       "blackList":{"hasLoad":[true]},
@@ -195,8 +195,8 @@
     "unlockTag":"loadedSmallTrailers",
     "filterName":"Small Trailer",
     "connector":"towhitch",
-    "baseReward":200,
-    "rewardPerKm":150,
+    "baseReward":600,
+    "rewardPerKm":350,
     "filter" : {
       "whiteList" : {"model_key" : ["boxutility","tsfb","boxutility_large"], "hasLoad":[true] },
       "blackList":{"key":["loaded_couch","loaded_armchairs","unsafe"]}
@@ -220,8 +220,8 @@
     "unlockTag":"emptyMediumTrailers",
     "filterName":"Medium Trailer",
     
-    "baseReward":250,
-    "rewardPerKm":250,
+    "baseReward":750,
+    "rewardPerKm":450,
     "filter" : {
       "whiteList" : {"model_key" : ["cargotrailer"] },
       "blackList":{"hasLoad":[true]},
@@ -232,8 +232,8 @@
     "unlockTag":"loadedMediumTrailers",
     "filterName":"Medium Trailer",
     "connector":"towhitch",
-    "baseReward":500,
-    "rewardPerKm":400,
+    "baseReward":750,
+    "rewardPerKm":500,
     "filter" : {
       "whiteList" : {"model_key" : ["cargotrailer"], "hasLoad":[true] },
       "blackList":{"key":["loaded_couch","loaded_armchairs"]}
@@ -256,8 +256,8 @@
     "unlockTag":"emptyLargeTrailer",
     "filterName":"Large Trailer",
     "connector":"towhitch",
-    "baseReward":1500,
-    "rewardPerKm":500,
+    "baseReward":2000, //edited 1500
+    "rewardPerKm":1000, //edited 500
     "filter" : {
       "whiteList" : {"model_key" : ["flatbed","containerTrailer","dryvan"]},
       "blackList":{"hasLoad":[true], "key":["48ft_loadingramp", "48ft_loadingramp_offset"]},
@@ -269,8 +269,8 @@
     "unlockTag":"loadedLargeTrailers",
     "filterName":"Large Trailer",
     "connector":"towhitch",
-    "baseReward":2000,
-    "rewardPerKm":1000,
+    "baseReward":3000, //edited 2000
+    "rewardPerKm":1500, //edited 1000
     "filter" : {
       "whiteList" : {"model_key" : ["flatbed","containerTrailer"], "hasLoad":[true]},
    },
@@ -281,8 +281,8 @@
   "unlockTag":"loadedLargeTrailers",
   "filterName":"Large Trailer",
   "connector":"towhitch",
-  "baseReward":1500,
-  "rewardPerKm":800,
+  "baseReward":3000, //edited 1500
+  "rewardPerKm":1500, //edited 800
   "filter" : {
     "whiteList" : {"model_key" : ["frameless_dump"]},
  }
